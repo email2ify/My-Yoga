@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for post in posts %}
+        <div class="post block">
+            <h4 class="subtitle">{{ testimony.title }}</h4>
+
+            <small>Posted at {{ post.created_on }}</small>
+
+           <h4> <p>{{ post.intro }}</p></h4>
+
+            <a href="{% url 'post_detail' post.slug %}">Read more or Add Testimony</a>
+        </div>    
+    {% endfor %}
+{% endblock %}
