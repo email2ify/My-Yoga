@@ -61,7 +61,7 @@ def post_balance(request, slug):
     else:
         form = CommentForm()
 
-    return render(request, 'blog/post_blance.html', {'post': post, 'form': form})
+    return render(request, 'blog/post_balance.html', {'post': post, 'form': form})
 
 
 def post_shoulder(request, slug):
@@ -121,8 +121,8 @@ def yoga_email(request):
 
 
 def about(request):
+    return render(request, 'blog/about.html')
 
-    content = {
-        'about': about
-    }
-    return render(request, 'blog/about.html', content)
+
+def contact(request):
+    return render(request, 'blog/contact.html')

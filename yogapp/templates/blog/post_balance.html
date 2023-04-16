@@ -37,7 +37,7 @@
 
     <h4 class="subtitle">Add comment</h4>
 
-    <form method="post" action="{% url 'post_banlance' post.slug %}">
+    <form method="post" action="{% url 'post_balance' post.slug %}">
         {% csrf_token %}
         {{ form.as_p }}
         <button class="button is-success" type="submit">Submit</button>    
