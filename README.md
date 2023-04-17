@@ -1,108 +1,94 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1>Yoga</h1>
+Yoga website is created with a Django functionality, bootstrap and HTML. The healthy life style yoga blog website can be assessed, navigated to the blog that interest the user. As it is a crud functionality, the app can post testimonials,comments, read, update or delete comment. The website was builth using Agile methodology for structure, and for UI Design Bootstrap technology.
 
-Welcome email2ify,
+![image](/docs/python2.PNG)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h2><Strong>Main Image:</strong></h2>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<li>Main Image: </li>
+</ul>
 
-## Gitpod Reminders
+<p> This image is the landing page
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![image](/docs/python1.PNG)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+<h2><Strong>User Experience Design:</strong></h2>
 
-Another blue button should appear to click: _Open Browser_.
+<li>For user to understand what the site is all about and to know the importane of the website and the organization.</li>
+<li>For user to navigate to the post of interest</li>
+<li>Reaching out to the organization through the contact page</li>
+<li>To create an account with the website</li>
+<li>To be able to create,update and delete testimonies</li>
+<li>To access the webpage using handy divices like smart phones, ipad etc </li>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<h2><Strong>Features:</strong></h2>
+The webpage has a landing contents and features providing information about the website and other small blogs for user to read the importance of yoga fitness and a navigation to show more of the written blog.
+<li>Create:User to be able to create comment in the blog post or testimonies</li>
+<li>Read:User to be able login to view their testimony or comment</li>
+<li>Udate:User can be able to make changes to their testimony or comment</li>
+<li>Delete: User will be able to delete testimony or comment.</li>
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+<h3>Database</h3>
+<li>A postgreSQL database offered by elephantSQL was the choice of database connected with the django framework during project development.</li>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+<h2><Strong>Security:</strong></h2>
+<li>The admin path was changed from the conventional name admin</li>
+<li>The website as a secure HTTP to prevent cyber attacks during data sharing.</li>
+<li>Django has a security line code wriiten CSRF for forms in this website to prevent malicious cyber attacks.</li>
+<li>The Debug is set to false before production.</li>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<h2><Strong>Testing:</strong></h2>
+<li>.</li>
+<li>.</li>
 
-------
+<h2><Strong>Validator testing:</strong></h2>
+<li>Lighthouse testing</li>
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<li>HTML validator</li>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<li>CSS validatorr</li>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<h2><Strong>Unfixed Bugs:</strong></h2>
+None
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<h2><Strong>Porject Deployment:</strong></h2>
+The Django project settings Debug is set to be False.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<h2><Strong>Heroku Deployment:</strong></h2>
+Heroku is the hosting platform for the project to deploy. Below are steps taken:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<li>First you need to signin to Heroku or create an account</li>
+<li>From Heroku Dashboard,click Create new app,Enter a unique App name,create app after selecting region.</li>
+<li>Navigate to Config Vars The config vars should contain the following keys and their corresponding values: DATABASE_URL,CLOUDINARY_URL,SECRET_KEY,PORT and finally to make sure the DISABLE_COLLECTSTATIC is removed before production.</li>
+<li>Navigate back to Deploy section and Select Github to connect to Github, Search for github repository using the name of the repository and click connect.</li>
+<li>Scroll down to Deploy branch and Select deploy branch to deploy manually.</li>
+<li>Click on the button but bear in mind it will take some few seconds for completion,and a View button below will show to click at.</li>
+<li>Click to view live website</li>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<h2><Strong>Technologies:</strong></h2>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<li>A coding school for learning Software Development provides template for gitpod necessary libraries.</li>
+<li>Bootstrap</li>
+<li>Github is the site used for the deployment and hosting of this website.</li>
+<li>Gitpod is the open-source developer platform used in tandem with github for the deployment of the website source code.</li>
+<li>web dev tutorials</li>
+<li>The postgreSQL Database used for the program.
+</li>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<h2><Strong>Credits:</strong></h2>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<li>Documentation Django models and Academy.</li>
+<li>Code Institute tuturial</li>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<h2><Strong>Acknowledgement:</strong></h2>
+<li>My Mentor Daizy</li>
+<li>My Family and Ogungbemi for sharing a wonderful insight of this project</li>
