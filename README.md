@@ -29,6 +29,13 @@ The webpage has a landing contents and features providing information about the 
 <li>Udate:User can be able to make changes to their testimony or comment</li>
 <li>Delete: User will be able to delete testimony or comment.</li>
 
+<h2><Strong>Features unsolved:</strong></h2>
+
+<li>The log in functionality in the site does not provide the ability for user to delete registered account, as users can only create account.</li>
+<li>The waitlist field in the site, for the user to enter their email address to the wait list is not rendering the user's email address to the data base but instead, the email address in the database is only showing the registered email address of users</li>
+
+
+
 
 <h3>Database</h3>
 <li>A postgreSQL database offered by elephantSQL was the choice of database connected with the django framework during project development.</li>
@@ -57,7 +64,7 @@ The webpage has a landing contents and features providing information about the 
 
 
 <h2><Strong>Unfixed Bugs:</strong></h2>
-None
+<li>The waiting list of the site</li>
 
 <h2><Strong>Porject Deployment:</strong></h2>
 The Django project settings Debug is set to be False.
