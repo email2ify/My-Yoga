@@ -26,7 +26,8 @@
 
     <nav class="navbar navbar-light navbar-expand-sm bg-light">
         <a href="/" class="navbar-brand">
-            <h2>HEALTHY LIFE STYLE</h2>
+
+            <h2 class="h2">HEALTHY LIFE STYLE</h2>
         </a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -65,8 +66,6 @@
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-
-
                         <a class="dropdown-item nav-link" href="{% url 'account_logout' %}">Logout</a>
 
                         <a class="dropdown-item nav-link" href="{% url 'account_signup' %}">Register</a>
@@ -77,37 +76,15 @@
             </ul>
         </div>
     </nav>
-    <img class="" src="https://storage.googleapis.com/mixo-sites/freepic/40118-yoga-with-face-masks-01.svg" alt="Yoga">
-    </div>
-    <form method="post">
-        {% csrf_token %}
-
-        <label for="jgemail" class="">Email address</label>
-        <input id="jgemail" type="email" class="" required="" placeholder="Enter your email...">
-        <button to="" class="ui-button ui-button-base ui-button-primary" type="submit">Join our waitlist</button>
-    </form> <br>
-
     <div class="container-wrapper container-wrapper--red, p " ,>
         <div class="container features-container content-container">
-            <h4 class="">Book Yoga classes, join Yoga communities, and find your inner peace with Yoga Training and
-                lifestyles.</h4>
             <br>
+            <h4 class="para">Book Yoga classes, join Yoga communities, and find your inner peace with Yoga Training and
+                lifestyles.</h4>
 
-            <p> Yoga training helps in reducing stress and anxiety by relaxing the mind and body.
-                Yoga includes deep breathing techniques, meditation, and mindfulness practices that help in promoting
-                better mental
-                health and reducing stress levels. It also enhances mental clarity and concentration, which in turn
-                improves overall
-                cognitive function. Regular practice of yoga has been shown to improve memory, attention, and
-                decision-making abilities.
-                It helps to boosts Immunity as studies have shown that yoga training can boost the immune system by
-                improving lymphatic
-                flow and increasing the production of germ-fighting cells in the body. Regular practice of yoga can help
-                in
-                keeping the body healthy and resilient to infections and diseases. Yoga training also promotes emotional
-                wellbeing by reducing the symptoms of depression, anxiety, and emotional stress. The mindfulness and
-                relaxation practices associated with yoga have been shown to improve mood and emotional regulation.</p>
-        </div>
+    <img class="" src="https://storage.googleapis.com/mixo-sites/freepic/40118-yoga-with-face-masks-01.svg" alt="Yoga">
+    </div>
+    
         <section class="section">
             <div class="container">
                 {% block content %}
@@ -115,10 +92,9 @@
             </div>
         </section>
         <!-- Features -->
-        <section class="features">
+        <section class="features" id="features">
             <div class="row">
                 <div class="col-12 page-header">
-
                     <hr class="block-divider block-divider--short block-divider--white">
                 </div>
             </div>

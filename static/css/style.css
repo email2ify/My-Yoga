@@ -1,0 +1,42 @@
+body {
+    background-color: #2c529c;
+    font-family: serif, sans-serif;
+    color: rgb(35, 31, 31);
+    background-color: rgb(255, 243, 243);
+    letter-spacing: 2px;
+    font-family: sans-serif, sans-serif;
+}
+
+h2 {
+    margin-left: 15px;
+    font-family: serif, sans-serif
+}
+
+h4 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+h5 {
+    font-family: serif, sans-serif;
+    font-size: 140%;
+    margin-top: 1px;
+
+}
+
+.features {
+    background-color: rgb(255, 243, 243);
+    color: #1a1716;
+    text-align: left;
+    margin-left: 15px;
+}
+
+p {
+    letter-spacing: 1px;
+    font-family: serif, sans-serif;
+}
+
+.para {
+    font-display: blue;
+    font-family: sans-serif;
+}

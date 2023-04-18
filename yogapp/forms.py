@@ -10,4 +10,4 @@ class CommentForm(forms.ModelForm):
 class yoga_emailForm(forms.ModelForm):
     class Meta:
         model = yoga_email
-        fields = ['user', 'email']       
+        fields = ['user', 'email']

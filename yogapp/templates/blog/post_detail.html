@@ -1,4 +1,4 @@
-{% extends 'blog/base.html' %}
+{% extends 'base.html' %}
 
 {% block content %}
 
@@ -18,7 +18,7 @@
     <div class="media-content">
         <div class="content">
             <p>
-                <strong>{{ comment.name }}</strong> <small>{{ comment.date_added }}</small>
+                <strong>{{ user.username }}</strong> <small>{{ comment.date_added }}</small>
                 <br>
                 {{ comment.body }}
             </p>
@@ -35,6 +35,7 @@
 
 <hr>
 
+
 <h4 class="subtitle">Testifiers</h4>
 
 <form method="post" action="{% url 'post_detail' post.slug %}">
@@ -42,6 +43,8 @@
     {{ form.as_p }}
     <button class="button is-success" type="submit">Submit</button>
 </form>
+
+
 <a href="{% url 'frontpage' %}">Back to home</a>
 
 {% endblock %}

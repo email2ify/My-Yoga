@@ -1,7 +1,33 @@
-{% extends 'blog/base.html' %}
+{% extends 'base.html' %}
 {% load static %}
 
 {% block content %}
+
+     
+
+        <p><h5>Yoga training helps in reducing stress and anxiety by relaxing the mind and body.
+            Yoga includes deep breathing techniques, meditation, and mindfulness practices that help in promoting
+            better mental
+            health and reducing stress levels. It also enhances mental clarity and concentration, which in turn
+            improves overall
+            cognitive function. Regular practice of yoga has been shown to improve memory, attention, and
+            decision-making abilities.
+            It helps to boosts Immunity as studies have shown that yoga training can boost the immune system by
+            improving lymphatic
+            flow and increasing the production of germ-fighting cells in the body. Regular practice of yoga can help
+            in
+            keeping the body healthy and resilient to infections and diseases. Yoga training also promotes emotional
+            wellbeing by reducing the symptoms of depression, anxiety, and emotional stress. The mindfulness and
+            relaxation practices associated with yoga have been shown to improve mood and emotional regulation.</p>
+    </div></h5>
+    
+    <form method="post">
+        {% csrf_token %}
+    
+        <label for="" class="para">Email address</label>
+        <input id="" type="email" class="" required="" placeholder="Enter your email...">
+        <button to="" class="ui-button ui-button-base ui-button-primary" type="submit">Join our waitlist</button>
+    </form> <br>
     {% for post in posts %}
         <div class="post block">
             
@@ -9,7 +35,7 @@
 
             <small>Posted at {{ post.created_on }}</small>
 
-           <h4> <p>{{ post.intro }}</p></h4>
+           <h3> <p>{{ post.intro }}</p></h3>
 
             <a href="{% url 'post_detail' post.slug %}">Read more or Add Testimony</a>
         </div>    
