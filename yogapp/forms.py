@@ -4,7 +4,7 @@ from .models import Comment, yoga_email
 class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
-        fields = ['name', 'email', 'body', 'author']
+        fields = ['name', 'body']
 
 
 class yoga_emailForm(forms.ModelForm):

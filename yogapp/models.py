@@ -4,9 +4,6 @@ from cloudinary.models import CloudinaryField
 
 """create tuple for post """
 
-
-
-
 class Post(models.Model):
     title = models.CharField(max_length=255)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -21,11 +18,10 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
-
 class Comment(models.Model):
     post = models.ForeignKey(
         Post, related_name='comments', on_delete=models.CASCADE)
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    
     name = models.CharField(max_length=255)
     email = models.EmailField()
     body = models.TextField()

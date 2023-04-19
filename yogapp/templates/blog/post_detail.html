@@ -17,11 +17,10 @@
 <article class="media">
     <div class="media-content">
         <div class="content">
-            <p>
-                <strong>{{ user.username }}</strong> <small>{{ comment.date_added }}</small>
-                <br>
-                {{ comment.body }}
-            </p>
+            <p><strong>{{ comment.name }}</strong>
+            <br><small>{{ comment.created_on }}</small></p>
+            <p>{{ comment.body }}</p>
+            
             <a href="{% url 'delete_comment' comment.id %}" class="danger">Delete</a>
             <a href="{% url 'update_comment' comment.id %}" class="info">Update</a>
         </div>

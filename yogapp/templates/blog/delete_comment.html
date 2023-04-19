@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Delete Testifier</h2>
+
+  <p>Are you sure you want to delete "{{ object.name }}"?</p>
+
+  <form method="POST">
+    {% csrf_token %}
+    {{ delete.as_p }}
+    <button type="submit">Yes</button>
+    <a href="{% url 'frontapage' %}">No</a>
+  </form>
+{% endblock content %}
