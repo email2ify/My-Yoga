@@ -1,32 +1,34 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<!-- Post title tags -->
 <h3 class="title">{{ post.title }}</h3>
-
+<!-- Post dates -->
 <small>Posted at {{ post.created_on }}</small>
-
-<p><strong>{{ post.intro }}</strong></p>
-
-<p>{{ post.body }}</p>
+<!-- Introduction of post -->
+<h4><p><strong>{{ post.intro }}</strong></p></h4>
+<!-- post content -->
+<h5><p>{{ post.body }}</p></h5>
 
 <hr>
-
+<!-- looping comment in post -->
 <h4 class="subtitle">Testimony</h4>
 {% for comment in post.comments.all %}
 <article class="media">
     <div class="media-content">
         <div class="content">
+            <!-- Post name and dates of post -->
             <p><strong>{{ comment.name }}</strong>
-            <br><small>{{ comment.created_on }}</small></p>
+                <br><small>{{ comment.created_on }}</small></p>
             <p>{{ comment.body }}</p>
-            
+            <!-- post updated and deleted -->
             <a href="{% url 'delete_comment' comment.id %}" class="danger">Delete</a>
             <a href="{% url 'update_comment' comment.id %}" class="info">Update</a>
         </div>
     </div>
 </article>
 {% empty %}
+<!-- notification of post or deleted -->
 <div class="notification">
     <p>No comments yet!</p>
 </div>
@@ -34,7 +36,7 @@
 
 <hr>
 
-
+<!-- post comment  -->
 <h4 class="subtitle">Testifiers</h4>
 
 <form method="post" action="{% url 'post_detail' post.slug %}">
@@ -43,7 +45,7 @@
     <button class="button is-success" type="submit">Submit</button>
 </form>
 
-
+<!-- render the home page -->
 <a href="{% url 'frontpage' %}">Back to home</a>
 
 {% endblock %}

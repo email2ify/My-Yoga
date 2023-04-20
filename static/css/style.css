@@ -1,9 +1,6 @@
 body {
-    background-color: #2c529c;
-    font-family: serif, sans-serif;
-    color: rgb(35, 31, 31);
-    background-color: rgb(255, 243, 243);
-    letter-spacing: 2px;
+    background-color: #f8f8f808;
+    color : #423e3e;
     font-family: sans-serif, sans-serif;
 }
 
@@ -14,7 +11,9 @@ h2 {
 
 h4 {
     margin-top: 5px;
-    text-align: center;
+    letter-spacing: 3px;
+
+
 }
 
 h5 {
@@ -22,20 +21,35 @@ h5 {
     font-size: 140%;
     margin-top: 1px;
 
+
 }
 
 .features {
-    background-color: rgb(255, 243, 243);
+    background-color: #f8f9fa;
     color: #1a1716;
     text-align: left;
     margin-left: 15px;
 }
 
 p {
-    letter-spacing: 1px;
+
     font-family: serif, sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .para {
-    font-family: sans-serif;
+    font-family: 'DM Serif Display', serif;
+
+    color: #6e5656;
+
+}
+
+.pe {
+    font-family:  'DM Serif Display', serif;
+
+    color: #6e5656;
+   
+    margin-left: 100px;
+   
+
 }

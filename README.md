@@ -145,6 +145,9 @@ Heroku is the hosting platform for the project to deploy. Below are steps taken:
 -[postgresSQL](https://www.elephantsql.com/)</li>
 </li>
 
+<li>Freepik. The beautiful Yoga image picture with face masks Cartoon Illustrations.</li>
+
+-[freepik](https://nl.freepik.com//)</li>
 
 <h2><Strong>Credits:</strong></h2>
 

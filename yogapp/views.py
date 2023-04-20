@@ -3,11 +3,15 @@ from django.shortcuts import get_object_or_404
 from .forms import CommentForm, yoga_emailForm
 from .models import Post, Comment, yoga_email
 
+# userpage
+
 
 def frontpage(request):
     posts = Post.objects.all()
 
     return render(request, 'blog/frontpage.html', {'posts': posts})
+
+# view
 
 
 def post_detail(request, slug):
@@ -26,6 +30,8 @@ def post_detail(request, slug):
         form = CommentForm()
 
     return render(request, 'blog/post_detail.html', {'post': post, 'form': form})
+
+# blogs
 
 
 def post_diet(request, slug):
@@ -81,6 +87,8 @@ def post_shoulder(request, slug):
 
     return render(request, 'blog/post_shoulder.html', {'post': post, 'form': form})
 
+# update
+
 
 def update_comment(request, pk):
     comment = get_object_or_404(Comment, id=pk)
@@ -96,6 +104,8 @@ def update_comment(request, pk):
         'comment_form': comment_form,
     }
     return render(request, 'blog/update_comment.html', context)
+
+# delete
 
 
 def delete_comment(request, pk):
@@ -118,6 +128,8 @@ def yoga_email(request):
         form = EmailAddressForm()
 
     return render(request, 'blog/yoga_email.html', {'form': form})
+
+# info
 
 
 def about(request):
