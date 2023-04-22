@@ -1,15 +1,18 @@
 from django.shortcuts import render, redirect
 from django.shortcuts import get_object_or_404
-from .forms import CommentForm, yoga_emailForm
-from .models import Post, Comment, yoga_email
+from .forms import CommentForm, YogaEmailForm
+from .models import Post, Comment, YogaEmail
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import UserPassesTestMixin
 
 # userpage
 
 
 def frontpage(request):
     posts = Post.objects.all()
+    form = YogaEmailForm()
 
-    return render(request, 'blog/frontpage.html', {'posts': posts})
+    return render(request, 'blog/frontpage.html', {'posts': posts, 'form': form})
 
 # view
 
@@ -23,6 +26,7 @@ def post_detail(request, slug):
         if form.is_valid():
             comment = form.save(commit=False)
             comment.post = post
+            comment.author = request.user
             comment.save()
 
             return redirect('post_detail', slug=post.slug)
@@ -114,20 +118,20 @@ def delete_comment(request, pk):
     return redirect('frontpage')
 
 
+@login_required
 def yoga_email(request):
 
-    yoga = request.yoga
+    posts = Post.objects.all()
 
     if request.method == 'POST':
-        form = EmailAddressForm(request.POST)
+        form = YogaEmailForm(request.POST)
         if form.is_valid():
-            email_address = form.save(commit=False)
-            email_address.yoga = yoga
-            email_address.save()
+            form = form.save(commit=False)
+            form.user = request.user
+            form.save()
     else:
-        form = EmailAddressForm()
-
-    return render(request, 'blog/yoga_email.html', {'form': form})
+        form = YogaEmailForm()
+    return render(request, 'blog/frontpage.html', {'form': form, 'posts': posts})
 
 # info
 

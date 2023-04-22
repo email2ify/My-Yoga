@@ -18,10 +18,11 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+
 class Comment(models.Model):
+    author = models.ForeignKey(User, on_delete=models.CASCADE, default='')
     post = models.ForeignKey(
         Post, related_name='comments', on_delete=models.CASCADE)
-    
     name = models.CharField(max_length=255)
     email = models.EmailField()
     body = models.TextField()
@@ -31,7 +32,10 @@ class Comment(models.Model):
         ordering = ["-created_on"]
 
 
-class yoga_email(models.Model):
+class YogaEmail(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE,
                              related_name='Emailaddress')
     email = models.EmailField()
+
+    def __str__(self):
+        return self.email

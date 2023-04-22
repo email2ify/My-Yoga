@@ -61,18 +61,54 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 ![image](/static/images/feat3.PNG)
 
 
+<h2><Strong>Footer:</strong></h2>
+
+<li>A footer has been added to the bottom of the site with social media icons, aria-labels to ensure users with assistive screen reading technology and to know what the purpose of the links are for and it also contains a  Facebook, Twitter,instagram and youtube link as the social icons only on the footer and the direct links that opens are on the left side on the top of the site 'under social media' so that users can follow us on social media if they want to keep up to date with our organization and events. The links navigate users away from the site.</li>
+
+![image](/static/images/footer.PNG)
+
+
+<h2><Strong>Agile Planning:</strong></h2>
+<li>This project was developed using agile methodologies</li>
+
+<li>All tasks were assigned to epics, prioritized under the Todo, Progress and Done.</li>
+
+<li>They were assigned to carry along as the project is progressing and stories allocated accordingly to the complexity. "Todo" stories is where I have listed the 'must have' stories lines, and "In progress" is where I have on going work in the tast mangement listed, likewise 'Done list', where I have the task completed.
+
+<li>The Kanban board was created using github projects, the image can be viewed to see more information on the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as complete.</li>
+  
+<li>It was done this way to ensure that all core requirements were completed first to give the project a complete sense of work.</li>
+
+The Kanban board was created using github projects and the below image is where you can view the information on the project cards. All stories except the documentation tasks have a set of acceptance criteria in order to define the functionality that marks that story as completed.</li>
+
+  <li>    
+  
+  -[Agile Board](https://github.com/users/email2ify/projects/11) 
+  
+  </li>
+  
+  ![image](/static/images/agile.PNG)
+
+
+
 <h2><Strong>Features unsolved:</strong></h2>
 
 <li>The login functionality in the site does not provide the ability for user to delete registered account, as users can only create account.</li>
-<li>The waitlist field in the site, for the user to enter their email address to the wait list is not rendering the user's email address to the data base but instead, the email address in the database is only showing the registered email address of users</li>
 
-<h3>Database</h3>
+<h2><Strong>Database:</strong></h2>
+
 <li>A postgreSQL database offered by elephantSQL was the choice of database connected with the django framework during project development.</li>
+<li>The database was designed to allow CRUD functionality to be available to registered users, when signed in. The user model is the main application as it is connected the main comment and post, linked by primary/foreign key relationships.</li>
+
+<li>The comment model holds objects that are linked to the comment Models by a many to many relationship. This allows users to create comment or testimony to others.</li>
+
+<li>Written testimony or comments by a Foreign Key which allows the users to be able to view and update testimony after registration.</li>
 
 
 <h2><Strong>Security:</strong></h2>
 <li>The admin path was changed from the conventional name admin</li>
 <li>The website as a secure HTTP to prevent cyber attacks during data sharing.</li>
+<li>Environment variables were stored in an env.py for local development for security purposes to ensure no secret keys, api keys or sensitive information was added the repository. In production, these variables were added to the heroku config vars within the project.</li>
 <li>Django has a security line code wriiten CSRF for forms in this website to prevent malicious cyber attacks.</li>
 <li>The Debug is set to false before production.</li>
 

@@ -1,5 +1,5 @@
 from django import forms
-from .models import Comment, yoga_email
+from .models import Comment, YogaEmail
 
 class CommentForm(forms.ModelForm):
     class Meta:
@@ -7,7 +7,7 @@ class CommentForm(forms.ModelForm):
         fields = ['name', 'body']
 
 
-class yoga_emailForm(forms.ModelForm):
+class YogaEmailForm(forms.ModelForm):
     class Meta:
-        model = yoga_email
-        fields = ['user', 'email']
+        model = YogaEmail
+        fields = ['email']

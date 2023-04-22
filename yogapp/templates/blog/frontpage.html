@@ -3,37 +3,54 @@
 
 {% block content %}
 
-    
-        <p><h3>The training we offers helps in reducing stress and anxiety by relaxing the mind and body.
-            It includes deep breathing techniques, meditation, and mindfulness practices that help in promoting
-            better mental health and reducing stress levels, it also enhances mental clarity and concentration.
-            <br>
-            Our regular practice of yoga has been shown to improve memory, attention, and decision-making abilities. <br>
-            It has boosts our students immunity with the help of our features and regular practices<br>
-            Our training  has imporoved the lifes and wellbeing of our old and new student, by 
-            reducing the symptoms of depression, anxiety, and emotional stress etc. <br>
-            </p>
-            <br>
-            <p class="pe">Feel free to read more about our post and benifits and register with us!</p>
-    </div></h3>
-    
-    <form method="post">
-        {% csrf_token %}
-    
-        <label for="" class="para">Email address</label>
-        <input id="" type="email" class="" required="" placeholder="Enter your email...">
-        <button to="" class="ui-button ui-button-base ui-button-primary" type="submit">Join our waitlist</button>
-    </form> <br> 
-    {% for post in posts %}
-        <div class="post block">
-            
-            <h4 class="subtitle">{{ testimony.title }}</h4>
+<!-- head statement -->
+<div class="container">
+    <br>
+    <br>
+    <h2 class="para">Book Yoga classes, Join Yoga communities and find your inner peace with
+        Yoga
+    </h2>
 
-            <small>Posted at {{ post.created_on }}</small>
+    <!-- image-->
 
-           <h3> <p>{{ post.intro }}</p></h3>
+    <img class="boo"
+        src="https://img.freepik.com/vrije-vector/yoga-met-gezichtsmaskers-concept-illustratie_114360-5745.jpg?w=826&t=st=1681971492~exp=1681972092~hmac=cadc18582cce7162842f7c4eb3031683602eaad4f33a14654b494ff2508e65c7"
+        alt="re.png">
+</div>
+</div>
+<p>
+    <h3>The training we offers helps in reducing stress and anxiety by relaxing the mind and body.
+        It includes deep breathing techniques, meditation, and mindfulness practices that help in promoting
+        better mental health and reducing stress levels, it also enhances mental clarity and concentration.
+        <br>
+        Our regular practice of yoga has been shown to improve memory, attention, and decision-making abilities. <br>
+        It has boosts our students immunity with the help of our features and regular practices<br>
+        Our training has imporoved the lifes and wellbeing of our old and new student, by
+        reducing the symptoms of depression, anxiety, and emotional stress etc. <br>
+</p>
+<br>
+<p class="pe">Feel free to read more about our post and benifits and register with us!</p>
+</div>
+</h3>
+<!-- waiting list form -->
+<form method="post" action="{% url 'yoga_email' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
 
-            <a href="{% url 'post_detail' post.slug %}">Read more or Add Testimony</a>
-        </div>    
-    {% endfor %}
+    <button to="" class="ui-button ui-button-base ui-button-primary" type="submit">Join our waitlist</button>
+</form> <br>
+{% for post in posts %}
+<div class="post block">
+    <!-- Post title tags -->
+    <h4 class="subtitle">{{ testimony.title }}</h4>
+    <!-- Post dates -->
+    <small>Posted at {{ post.created_on }}</small>
+    <!-- Post introduction -->
+    <h3>
+        <p>{{ post.intro }}</p>
+    </h3>
+    <!-- blog post nav -->
+    <a href="{% url 'post_detail' post.slug %}">Read more or Add Testimony</a>
+</div>
+{% endfor %}
 {% endblock %}

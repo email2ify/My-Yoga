@@ -21,6 +21,7 @@ from yogapp.views import (
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', frontpage, name='frontpage'),
+    path('article/', yoga_email, name='yoga_email'),
     path('about/', about, name='about'),
     path('contact/', contact, name='contact'),
     path('<slug:slug>/', post_detail, name='post_detail'),
@@ -29,6 +30,5 @@ urlpatterns = [
     path('<slug:slug>/', post_shoulder, name='post_shoulder'),
     path('article/<int:pk>/update/', update_comment, name='update_comment'),
     path('article/<int:pk>/delete/', delete_comment, name='delete_comment'),
-    path('article/<int:pk>/add/', yoga_email, name='yoga_email'),
     path('accounts/', include('allauth.urls')),   
 ]

@@ -22,8 +22,10 @@
                 <br><small>{{ comment.created_on }}</small></p>
             <p>{{ comment.body }}</p>
             <!-- post updated and deleted -->
-            <a href="{% url 'delete_comment' comment.id %}" class="danger">Delete</a>
-            <a href="{% url 'update_comment' comment.id %}" class="info">Update</a>
+            {% if comment.author == request.user %}
+                <a href="{% url 'delete_comment' comment.id %}" class="danger">Delete</a>
+                <a href="{% url 'update_comment' comment.id %}" class="info">Update</a>
+            {% endif %}
         </div>
     </div>
 </article>
@@ -39,11 +41,15 @@
 <!-- post comment  -->
 <h4 class="subtitle">Testifiers</h4>
 
+{% if request.user.is_authenticated %}
 <form method="post" action="{% url 'post_detail' post.slug %}">
     {% csrf_token %}
     {{ form.as_p }}
     <button class="button is-success" type="submit">Submit</button>
 </form>
+{% else %}
+You must be logged in to comment.
+{% endif %}
 
 <!-- render the home page -->
 <a href="{% url 'frontpage' %}">Back to home</a>
