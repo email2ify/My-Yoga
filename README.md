@@ -33,21 +33,49 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 ![image](/static/images/testi-create.PNG)
 
-<h2><Strong>Udate:</strong></h2>
+<h2><Strong>Update:</strong></h2>
 <li>User can be able to make changes to their testimony or comment</li>
 
-![image](/static/images/update1.PNG)
+![image](/static/images/update23.PNG)
+
 
 <h2><Strong>Delete:</strong></h2>
-<li>User will be able to delete testimony or comment.</li>
+<li>User will be able to delete testimony or comment but before the delete is gone, a pop up message appears "Are you sure you want to delete?"</li>
+
+![image](/static/images/delei.PNG)
+
+
+<h2><Strong>Notification:</strong></h2>
+<li>For users to be able to see if there are any testimonies or comments on the post.</li>
 
 ![image](/static/images/dele.PNG)
-
 
 <h2><Strong>Wait List :</strong></h2>
 <li>Individuals showing interest in our Yoga training will have to register an account and also register their email address in our data base inorder to know the counts of individuals that we be joing the next Yoga programme and the benifits joining us.</li>
 
 ![image](/static/images/waitlist.PNG)
+
+
+
+<h2><Strong>Sign Up :</strong></h2>
+
+<li>It is important for user to register an account inorder for them to comment or testify </li>
+
+![image](/static/images/sign.PNG)
+
+<h2><Strong>Sign In :</strong></h2>
+
+<li>It is important for user to sign into their account inorder for them to comment or testify </li>
+
+![image](/static/images/signin.PNG)
+
+
+<h2><Strong>Sign Out :</strong></h2>
+
+<li>User can sign out from his or her account </li>
+
+![image](/static/images/signout.PNG)
+
 
 
 <h2><Strong>Diet stretching :</strong></h2>

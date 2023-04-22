@@ -4,6 +4,7 @@ from .forms import CommentForm, YogaEmailForm
 from .models import Post, Comment, YogaEmail
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import UserPassesTestMixin
+from django.views.generic.edit import DeleteView
 
 # userpage
 
@@ -142,3 +143,10 @@ def about(request):
 
 def contact(request):
     return render(request, 'blog/contact.html')
+
+
+class DeleteView(DeleteView):
+    model = Comment
+    success_url = "/"
+
+    template_name = "blog/DeleteView.html"

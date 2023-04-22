@@ -23,7 +23,7 @@
             <p>{{ comment.body }}</p>
             <!-- post updated and deleted -->
             {% if comment.author == request.user %}
-                <a href="{% url 'delete_comment' comment.id %}" class="danger">Delete</a>
+                <a href="{% url 'DeleteView' comment.id %}" class="danger">Delete</a>
                 <a href="{% url 'update_comment' comment.id %}" class="info">Update</a>
             {% endif %}
         </div>
