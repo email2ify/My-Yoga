@@ -6,7 +6,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 <li>The Image in defferent views </li>
 </ul>
 
-![image](/static/images/yoga%20front.PNG)
+![image](/static/images/landingpage.PNG)
 
 
 <h2><Strong>User Experience Design:</strong></h2>
@@ -26,39 +26,45 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 <h2><Strong>Create:</strong></h2>
 <li>User to be able to create comment in the blog post or testimonies</li>
 
-![image](/static/images/create.PNG)
+![image](/static/images/create2.PNG)
 
 <h2><Strong>Read:</strong></h2>
 <li>User to be able login to view their testimony or comment</li>
 
-![image](/static/images/read.PNG)
+![image](/static/images/testi-create.PNG)
 
 <h2><Strong>Udate:</strong></h2>
 <li>User can be able to make changes to their testimony or comment</li>
 
-![image](/static/images/update.PNG)
+![image](/static/images/update1.PNG)
 
 <h2><Strong>Delete:</strong></h2>
 <li>User will be able to delete testimony or comment.</li>
 
-![image](/static/images/nocomment.PNG)
+![image](/static/images/dele.PNG)
+
+
+<h2><Strong>Wait List :</strong></h2>
+<li>Individuals showing interest in our Yoga training will have to register an account and also register their email address in our data base inorder to know the counts of individuals that we be joing the next Yoga programme and the benifits joining us.</li>
+
+![image](/static/images/waitlist.PNG)
 
 
 <h2><Strong>Diet stretching :</strong></h2>
 
 
-![image](/static/images/feat1.PNG)
+![image](/static/images/diet.PNG)
 
 
 <h2><Strong>Shoulder & chest stretch:</strong></h2>
 
 
-![image](/static/images/feat2.PNG)
+![image](/static/images/shoulder.PNG)
 
 
 <h2><Strong>Back health & balance:</strong></h2>
 
-![image](/static/images/feat3.PNG)
+![image](/static/images/back.PNG)
 
 
 <h2><Strong>Footer:</strong></h2>
@@ -126,7 +132,7 @@ The Kanban board was created using github projects and the below image is where 
 <h2><Strong>Validator testing:</strong></h2>
 <li>Lighthouse testing</li>
 
-![image](/static/images/Yoga-lighthouse.PNG)
+![image](/static/images/lightHouse%20new.PNG)
 
 <li>validator</li>
 
@@ -136,8 +142,10 @@ The Kanban board was created using github projects and the below image is where 
 
 ![image](/static/images/Yoga-css.PNG)
 
-<h2><Strong>Unfixed Bugs:</strong></h2>
-<li>The waiting list of the site</li>
+<h2><Strong>Bugs:</strong></h2>
+<li>The waiting list field of the site was really a problem to create, inorder to see the registered Yoga email addresses on the database, but at the end the bug was solved and I was able to users email addresses at the database</li>
+
+![image](/static/images/Yogaemail.PNG)
 
 <h2><Strong>Project Deployment:</strong></h2>
 <li>The Django project settings Debug is set to be False.</li>
@@ -157,8 +165,18 @@ Heroku is the hosting platform for the project to deploy. Below are steps taken:
 <li>Click on the button but bear in mind it will take some few seconds for completion,and a View button below will show to click at.</li>
 <li>Click to view live website</li>
 
-<h2><Strong>Technologies:</strong></h2>
 
+<h2><Strong>Surface-Colour-Scheme:</strong></h2>
+<li>The main color schemes for the website are background-color is faded White (f8f8f808) and dark grayish (#423e3e) for the text and footer (#1a1716),to the website.</li>
+
+<h2><Strong>Typography:</strong></h2>
+<li>The Roboto font was used throughout the website. This font is from google fonts and was imported into the style sheet.</li>
+
+<h2><Strong>Image:</strong></h2>
+<li>The mark image was taken freepik, which is a free image site at least for many of them</li>
+
+
+<h2><Strong>Technologies:</strong></h2>
 
 
 <li> Bootstrap
@@ -196,6 +214,10 @@ Heroku is the hosting platform for the project to deploy. Below are steps taken:
 <li>Code Institute tuturial</li>
 
 -[Code Institute](https://codeinstitute.net/)
+
+<li>Freepik. The beautiful Yoga image picture with face masks Cartoon Illustrations and the other two pictures for the about page and contact page.</li>
+
+-[freepik](https://nl.freepik.com//)</li>
 
 <h2><Strong>Acknowledgement:</strong></h2>
 <li>My Mentor, Daisy.</li>
