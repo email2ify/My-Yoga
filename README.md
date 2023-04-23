@@ -23,8 +23,18 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 ![image](/static/images/IMG_7491.jpg)
 
+
+
+<h2><Strong>Create Comment:</strong></h2>
+<li>Users are unable to comment or give testimony regarding their experience with the Yoga organization or blog, rather a pop up messge will appear asking the user, 'You must be logged in to comment' </li>
+
+![image](/static/images/co1.PNG)
+
+
+
+
 <h2><Strong>Create:</strong></h2>
-<li>User to be able to create comment in the blog post or testimonies</li>
+<li>Users are able to create comment in the blog post or testimonies after they have register an account with the site</li>
 
 ![image](/static/images/create2.PNG)
 
