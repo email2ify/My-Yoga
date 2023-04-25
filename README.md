@@ -1,5 +1,5 @@
 <h1>Yoga</h1>
-Yoga website is created with a Django functionality, bootstrap and HTML. The healthy life style yoga blog website can be assessed, navigated to the blog that interest the user. As it is a crud functionality, the app can post testimonials,comments, read, update or delete comment. The website was builth using Agile methodology for structure, and for UI Design Bootstrap technology.
+Yoga website is created with a Django functionality, bootstrap and HTML. The healthy life style yoga blog website can be assessed in all devices, navigated to the blog that interest the user. As it is a crud functionality, the app can post testimonials,comments, read, update or delete comment. The website was builth using Agile methodology for structure, and for UI Design Bootstrap technology.
 
 <h2><Strong>Image:</strong></h2>
 
@@ -19,14 +19,14 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 <li>To access the webpage using handy divices like smart phones, ipad etc </li>
 
 <h2><Strong>Features and the render testing images:</strong></h2>
-<li>The webpage has a landing contents and features providing information about the website and the importance of Yoga fitness and blog posts for users to read more and positioning to balance a healthy life style and the benifits of it.</li>
+<li>The webpage has a landing contents and features providing information about the website and the importance of Yoga fitness and blog posts for users to read more and positioning to balance a healthy life style and the benefits of it.</li>
 
 ![image](/static/images/IMG_7491.jpg)
 
 
 
 <h2><Strong>Create Comment:</strong></h2>
-<li>Users are unable to comment or give testimony regarding their experience with the Yoga organization or blog, rather a pop up messge will appear asking the user, 'You must be logged in to comment' </li>
+<li>Users are unable to add comment or give testimony regarding their experience with the Yoga organization or the blog post, rather a pop up messge will appear asking the user, 'You must be logged in to comment' </li>
 
 ![image](/static/images/co1.PNG)
 
@@ -44,13 +44,13 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 ![image](/static/images/testi-create.PNG)
 
 <h2><Strong>Update:</strong></h2>
-<li>User can be able to make changes to their testimony or comment</li>
+<li>User to be able to make changes to their testimony or comment</li>
 
 ![image](/static/images/update23.PNG)
 
 
 <h2><Strong>Delete:</strong></h2>
-<li>User will be able to delete testimony or comment but before the delete is gone, a pop up message appears "Are you sure you want to delete?"</li>
+<li>User will be able to delete testimony or comment but before the delete message is gone, a pop up message appears "Are you sure you want to delete?"</li>
 
 ![image](/static/images/delei.PNG)
 
@@ -61,7 +61,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 ![image](/static/images/dele.PNG)
 
 <h2><Strong>Wait List :</strong></h2>
-<li>Individuals showing interest in our Yoga training will have to register an account and also register their email address in our data base inorder to know the counts of individuals that we be joing the next Yoga programme and the benifits joining us.</li>
+<li>Individuals showing interest in our Yoga training will have to register an account and also register their email address in the data base inorder to know the counts of individuals that will be joining the next Yoga programme and the benefits of joining us.</li>
 
 ![image](/static/images/waitlist.PNG)
 
@@ -69,13 +69,13 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 <h2><Strong>Sign Up :</strong></h2>
 
-<li>It is important for user to register an account inorder for them to comment or testify </li>
+<li>It is important for user to sign up an account inorder for them to comment or testify </li>
 
 ![image](/static/images/sign.PNG)
 
 <h2><Strong>Sign In :</strong></h2>
 
-<li>It is important for user to sign into their account inorder for them to comment or testify </li>
+<li>It is important for user to sign in into their account inorder to have access to the blog post and comments if need be </li>
 
 ![image](/static/images/signin.PNG)
 
@@ -107,7 +107,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 <h2><Strong>Footer:</strong></h2>
 
-<li>A footer has been added to the bottom of the site with social media icons, aria-labels to ensure users with assistive screen reading technology and to know what the purpose of the links are for and it also contains a  Facebook, Twitter,instagram and youtube link as the social icons only on the footer and the direct links that opens are on the left side on the top of the site 'under social media' so that users can follow us on social media if they want to keep up to date with our organization and events. The links navigate users away from the site.</li>
+<li>A footer has been added to the bottom of the site with post feactures and social media icons in aria-labels to ensure users with assistive screen reading technology for the social media links and to know the purpose of the links are for. In the  links, it contains a  Facebook, Twitter,instagram and youtube as the social icons only on the footer and the direct navigation links that opens are on the left side of the site page, at the top 'under social media' so that users can follow us on social media if they want to keep up to date with our organization and events. The links navigate users away from the site.</li>
 
 ![image](/static/images/footer.PNG)
 
@@ -117,7 +117,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 <li>All tasks were assigned to epics, prioritized under the Todo, Progress and Done.</li>
 
-<li>They were assigned to carry along as the project is progressing and stories allocated accordingly to the complexity. "Todo" stories is where I have listed the 'must have' stories lines, and "In progress" is where I have on going work in the tast mangement listed, likewise 'Done list', where I have the task completed.
+<li>They were assigned to carry along as the project is progressing and stories allocated accordingly to the complexity. "Todo" stories is where I have listed the 'to do' stories lines, and "In progress" is where I have on-going work work in the tast mangement listed, likewise 'Done list', where I have the task completed.
 
 <li>The Kanban board was created using github projects, the image can be viewed to see more information on the project cards. All stories except the documentation tasks have a full set of acceptance criteria in order to define the functionality that marks that story as complete.</li>
   
@@ -137,7 +137,7 @@ The Kanban board was created using github projects and the below image is where 
 
 <h2><Strong>Features unsolved:</strong></h2>
 
-<li>The login functionality in the site does not provide the ability for user to delete registered account, as users can only create account.</li>
+<li>The login functionality in the site does not provide the ability for user to delete registered account, as users can only create account and also displaying a successful logout from the account</li>
 
 <h2><Strong>Database:</strong></h2>
 
@@ -162,10 +162,12 @@ The Kanban board was created using github projects and the below image is where 
 <li>From the view page, the navbar was working as expected and I was able to navigate to the preferred section as expected on the about page, contact page,home page, the external links for the social media and the internal navigation for the login ,register and logout navbar.</li>
 <li>In the body of the site, there is a created post and date and when a user want to read about the post, I tested the read more to confirm the navigation of the read more of the post which the navigation of the read more worked as expected and the full details of the post was open</li>
 
-<li>I also tested the features navigation read more and the link was open as expected</li>
+<li>The testing of the footer features in the read more section, I discovered that not all three of them were working as expected but I had to rethink to know why it was so, and I discovered that one of the page was linking directly to the page with full UrL instead of the main body of the post, which was corrected.</li>
 
-<li>I also tested the crud functionality. Users and registered users are to read,create, update and delete their content or testimonies and these functions are working as expected having tested the functionality</li>
+<li>I also tested the crud functionality. Unregister users can not add comment, rather the user will be ask to register to add comment, which was expected and registered users can read,create, update and delete their comment or testimonies and these functions are working as expected, having tested the functionalities.</li>
 <li>I tested the admin panel for registered users and also to delete posts and these functions are working as expected</li>
+
+<li>I also tested the 'waitlist field of the site, users showing interest in our Yoga training by adding their email addresses into the 'waitlist field, to join the waiting list of the Yoga training, and having done their registration of account and to register their email addresses in the wait list field. I tested the peice of function and it was showing the registered email addresses by users on the data base as expected, which was very nice to see</li>
 
 <h2><Strong>Validator testing:</strong></h2>
 <li>Lighthouse testing</li>
@@ -180,10 +182,14 @@ The Kanban board was created using github projects and the below image is where 
 
 ![image](/static/images/Yoga-css.PNG)
 
-<h2><Strong>Bugs:</strong></h2>
-<li>The waiting list field of the site was really a problem to create, inorder to see the registered Yoga email addresses on the database, but at the end the bug was solved and I was able to users email addresses at the database</li>
+<h2><Strong>My Challange:</strong></h2>
+<li>The waiting list field section of the site was a challange, to see the registered user email addresses on the database,was challanging at first but it was later solved and I was able to users email addresses on the database, which make me very happy</li>
 
 ![image](/static/images/Yogaemail.PNG)
+
+<h2><Strong>Bugs:</strong></h2>
+
+<li>None</li>
 
 <h2><Strong>Project Deployment:</strong></h2>
 <li>The Django project settings Debug is set to be False.</li>
@@ -211,7 +217,7 @@ Heroku is the hosting platform for the project to deploy. Below are steps taken:
 <li>The Roboto font was used throughout the website. This font is from google fonts and was imported into the style sheet.</li>
 
 <h2><Strong>Image:</strong></h2>
-<li>The mark image was taken freepik, which is a free image site at least for many of them</li>
+<li>The mask image was taken from freepik, and it is a free image site where you can get free illustration of images</li>
 
 
 <h2><Strong>Technologies:</strong></h2>
@@ -253,7 +259,7 @@ Heroku is the hosting platform for the project to deploy. Below are steps taken:
 
 -[Code Institute](https://codeinstitute.net/)
 
-<li>Freepik. The beautiful Yoga image picture with face masks Cartoon Illustrations and the other two pictures for the about page and contact page.</li>
+<li>Freepik. The beautiful Yoga image picture with face masks Cartoon Illustrations and the other two image pictures for the about page and contact page.</li>
 
 -[freepik](https://nl.freepik.com//)</li>
 
