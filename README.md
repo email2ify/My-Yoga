@@ -265,4 +265,3 @@ Heroku is the hosting platform for the project to deploy. Below are steps taken:
 
 <h2><Strong>Acknowledgement:</strong></h2>
 <li>My Mentor, Daisy.</li>
-
