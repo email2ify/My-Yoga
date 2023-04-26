@@ -2,6 +2,7 @@ from django.test import TestCase
 from django.urls import reverse
 
 
+
 # Create your tests here.
 
 class TestHome(TestCase):
@@ -22,3 +23,15 @@ class TestAbout(TestCase):
         response = self.client.get('/about/')
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'blog/about.html')
+
+
+class TestContact(TestCase):
+    def test_get_about(self):
+        """
+        get contact.
+        """
+        response = self.client.get('/contact/')
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'blog/contact.html')
+
+
