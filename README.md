@@ -24,6 +24,17 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 ![image](/static/images/landingpage2.PNG)
 
 
+<h2><Strong>About Page:</strong></h2>
+<li>The website about page image, for the user to know about the organization</li>
+
+![image](/static/images/about-page.PNG)
+
+
+<h2><Strong>Contact Page:</strong></h2>
+<li>The website contact page image, for the users to see the directline and email addresses of the organization</li>
+
+![image](/static/images/contactpage.PNG)
+
 
 <h2><Strong>Create Comment:</strong></h2>
 <li>Users are unable to add comment or give testimony and also their experience with the Yoga organization or the blog post, rather a pop up message will appear asking the user, 'You must be logged in to comment' </li>
