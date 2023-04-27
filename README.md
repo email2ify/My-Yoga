@@ -19,14 +19,14 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 <li>To access the webpage using handy divices like smart phones, ipad etc </li>
 
 <h2><Strong>Features and the render testing images:</strong></h2>
-<li>The webpage has a landing contents and features providing information about the website and the importance of Yoga fitness and blog posts for users to read more and positioning to balance a healthy life style and the benefits of it.</li>
+<li>The webpage has a landing header and features providing information about the website and the importance of Yoga training and fitness, blog posts for users to read more and to balance a healthy life style.</li>
 
-![image](/static/images/IMG_7491.jpg)
+![image](/static/images/landingpage2.PNG)
 
 
 
 <h2><Strong>Create Comment:</strong></h2>
-<li>Users are unable to add comment or give testimony regarding their experience with the Yoga organization or the blog post, rather a pop up messge will appear asking the user, 'You must be logged in to comment' </li>
+<li>Users are unable to add comment or give testimony and also their experience with the Yoga organization or the blog post, rather a pop up message will appear asking the user, 'You must be logged in to comment' </li>
 
 ![image](/static/images/co1.PNG)
 
@@ -39,7 +39,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 ![image](/static/images/create2.PNG)
 
 <h2><Strong>Read:</strong></h2>
-<li>User to be able login to view their testimony or comment</li>
+<li>Registered Users only can read, view testimonies of themself or others </li>
 
 ![image](/static/images/testi-create.PNG)
 
@@ -50,7 +50,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 
 <h2><Strong>Delete:</strong></h2>
-<li>User will be able to delete testimony or comment but before the delete message is gone, a pop up message appears "Are you sure you want to delete?"</li>
+<li>User will be able to delete their testimony or comment but before the delete message is gone, a pop up message appears "Are you sure you want to delete?"</li>
 
 ![image](/static/images/delei.PNG)
 
@@ -88,19 +88,24 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 
 
-<h2><Strong>Diet stretching :</strong></h2>
+<h2><Strong>Diet stretching:</strong></h2>
 
+<li> Users to read about  site blog on Diet stretching and the health benefit </li>
 
 ![image](/static/images/diet.PNG)
 
 
 <h2><Strong>Shoulder & chest stretch:</strong></h2>
 
+<li> Users to read about the site blog on Shoulder & chest stretch and the health benefit </li>
+
 
 ![image](/static/images/shoulder.PNG)
 
 
 <h2><Strong>Back health & balance:</strong></h2>
+
+<li> Users to read about the site blog on Back health & balance and the health benefit </li>
 
 ![image](/static/images/back.PNG)
 
@@ -137,7 +142,7 @@ The Kanban board was created using github projects and the below image is where 
 
 <h2><Strong>Features unsolved:</strong></h2>
 
-<li>The login functionality in the site does not provide the ability for user to delete registered account, as users can only create account and also displaying a successful logout from the account</li>
+<li>The login functionality in the site does not provide the ability for user to delete registered account, as users can only create account and also displaying a successful logout from the account was unsolved</li>
 
 <h2><Strong>Database:</strong></h2>
 
@@ -153,7 +158,7 @@ The Kanban board was created using github projects and the below image is where 
 <li>The admin path was changed from the conventional name admin</li>
 <li>The website as a secure HTTP to prevent cyber attacks during data sharing.</li>
 <li>Environment variables were stored in an env.py for local development for security purposes to ensure no secret keys, api keys or sensitive information was added the repository. In production, these variables were added to the heroku config vars within the project.</li>
-<li>Django has a security line code wriiten CSRF for forms in this website to prevent malicious cyber attacks.</li>
+<li>Django has a security line code written 'CSRF' for forms in this website to prevent malicious cyber attacks or otherwise.</li>
 <li>The Debug is set to false before production.</li>
 
 
@@ -183,7 +188,7 @@ The Kanban board was created using github projects and the below image is where 
 ![image](/static/images/Yoga-css.PNG)
 
 <h2><Strong>My Challange:</strong></h2>
-<li>The waiting list field section of the site was a challange, to see the registered user email addresses on the database,was challanging at first but it was later solved and I was able to users email addresses on the database, which make me very happy</li>
+<li>The waiting list field section of the site was a challange. To see a registered user email address on the database,was challanging at first but it was later solved and I was able to see users email addresses on the database, which makes me very happy</li>
 
 ![image](/static/images/Yogaemail.PNG)
 
