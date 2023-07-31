@@ -6,9 +6,13 @@
 <!-- Post dates -->
 <small>Posted at {{ post.created_on }}</small>
 <!-- Introduction of post -->
-<h4><p><strong>{{ post.intro }}</strong></p></h4>
+<h4>
+    <p><strong>{{ post.intro }}</strong></p>
+</h4>
 <!-- post content -->
-<h5><p>{{ post.body }}</p></h5>
+<h5>
+    <p>{{ post.body }}</p>
+</h5>
 
 <hr>
 <!-- looping comment in post -->
@@ -19,12 +23,13 @@
         <div class="content">
             <!-- Post name and dates of post -->
             <p><strong>{{ comment.name }}</strong>
-                <br><small>{{ comment.created_on }}</small></p>
+                <br><small>{{ comment.created_on }}</small>
+            </p>
             <p>{{ comment.body }}</p>
             <!-- post updated and deleted -->
             {% if comment.author == request.user %}
-                <a href="{% url 'DeleteView' comment.id %}" class="danger">Delete</a>
-                <a href="{% url 'update_comment' comment.id %}" class="info">Update</a>
+            <a href="{% url 'DeleteView' comment.id %}" class="danger">Delete</a>
+            <a href="{% url 'update_comment' comment.id %}" class="info">Update</a>
             {% endif %}
         </div>
     </div>
@@ -45,13 +50,13 @@
 <form method="post" action="{% url 'post_detail' post.slug %}">
     {% csrf_token %}
     {{ form.as_p }}
-    <button class="button is-success" type="submit">Submit</button>
+    <button class="button is-success w-100 my-3" type="submit">Submit</button>
 </form>
 {% else %}
 You must be logged in to comment.
 {% endif %}
 
 <!-- render the home page -->
-<a href="{% url 'frontpage' %}">Back to home</a>
+<a class="text-dark" href="{% url 'frontpage' %}"> Back to home</a>
 
 {% endblock %}

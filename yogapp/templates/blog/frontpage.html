@@ -19,38 +19,38 @@
 </div>
 </div>
 <p>
-    <h3>The training we offers helps in reducing stress and anxiety by relaxing the mind and body.
-        It includes deep breathing techniques, meditation, and mindfulness practices that help in promoting
-        better mental health and reducing stress levels, it also enhances mental clarity and concentration.
-        <br>
-        Our regular practice of yoga has been shown to improve memory, attention, and decision-making abilities. <br>
-        It has boosts our students immunity with the help of our features and regular practices<br>
-        Our training has imporoved the lifes and wellbeing of our old and new student, by
-        reducing the symptoms of depression, anxiety, and emotional stress etc. <br>
-</p>
-<br>
-<p class="pe">Feel free to read more about our post and benefits and register with us!</p>
-</div>
+<h3>The training we offers helps in reducing stress and anxiety by relaxing the mind and body.
+    It includes deep breathing techniques, meditation, and mindfulness practices that help in promoting
+    better mental health and reducing stress levels, it also enhances mental clarity and concentration.
+    <br><br>
+    Our regular practice of yoga has been shown to improve memory, attention, and decision-making abilities. <br>
+    It has boosts our students immunity with the help of our features and regular practices<br>
+    Our training has imporoved the lifes and wellbeing of our old and new student, by
+    reducing the symptoms of depression, anxiety, and emotional stress etc. <br>
+    </p>
+    <br>
+    <p class="pe">Feel free to read more about our post and benefits and register with us!</p>
+    </div>
 </h3>
 <!-- waiting list form -->
 <form method="post" action="{% url 'yoga_email' %}">
     {% csrf_token %}
     {{ form.as_p }}
 
-    <button to="" class="ui-button ui-button-base ui-button-primary" type="submit">Join our waitlist</button>
+    <button to="" class="btn btn-success py-2 px-4 rounded-5" type="submit">Join our waitlist</button>
 </form> <br>
 {% for post in posts %}
-<div class="post block">
+<div class="post block my-5">
     <!-- Post title tags -->
-    <h4 class="subtitle">{{ testimony.title }}</h4>
+    <h4>{{ post.title }}</h4>
     <!-- Post dates -->
     <small>Posted at {{ post.created_on }}</small>
     <!-- Post introduction -->
-    <h3>
-        <p>{{ post.intro }}</p>
-    </h3>
+    <!-- <h3> -->
+    <h3 class="subtitle">{{ post.intro }}</h3>
+    <!-- </h3> -->
     <!-- blog post nav -->
-    <a href="{% url 'post_detail' post.slug %}">Read more or Add Testimony</a>
+    <a class="btn btn-secondary opacity-75 px-4 py-2" href="{% url 'post_detail' post.slug %}">Read more</a>
 </div>
 {% endfor %}
 {% endblock %}

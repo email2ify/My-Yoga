@@ -15,21 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from yogapp.views import (
-    frontpage, post_detail, post_diet, post_balance, post_shoulder, delete_comment, update_comment, yoga_email, about, contact,  DeleteView)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', frontpage, name='frontpage'),
-    path('article/', yoga_email, name='yoga_email'),
-    path('about/', about, name='about'),
-    path('contact/', contact, name='contact'),
-    path('<slug:slug>/', post_detail, name='post_detail'),
-    path('<slug:slug>/', post_diet, name='post_diet'),
-    path('<slug:slug>/', post_balance, name='post_balance'),
-    path('<slug:slug>/', post_shoulder, name='post_shoulder'),
-    path('article/<int:pk>/update/', update_comment, name='update_comment'),
-    path('article/<int:pk>/delete/', delete_comment, name='delete_comment'),
-    path('article/<pk>/deleteView/', DeleteView.as_view(), name='DeleteView'),
-    path('accounts/', include('allauth.urls')),   
+    path('', include('yogapp.urls')),
+    path('accounts/', include('allauth.urls')),
 ]
