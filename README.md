@@ -24,8 +24,8 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 ![image](/static/images/landingpage2.PNG)
 
 
-<h2><Strong>About Page:</strong></h2>
-<li>The website about page image, for the user to know about the organization</li><br>
+<h2><Strong>The About Page:</strong></h2>
+<li>The about page of the website is to create awareness of the Healthy lifestyle and yoga image, for user to know what the organization is all about. </li><br>
 
 ![image](/static/images/about-page.PNG)
 
@@ -37,7 +37,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 
 <h2><Strong>NavBar:</strong></h2>
-<li>This is the navigation page of the website  and markdown for any navigation of the page</li><br>
+<li>This is the navigation page of the website  and a markdown navigation link</li><br>
 
 ![image](/static/images/Navbar.PNG)
 
@@ -61,7 +61,6 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 ![image](/static/images/dropdown2.PNG)
 
 
-<h2><Strong>Responsiveness:</strong></h2>
 <li>The responsiveness on a DeskTop</li><br>
 
 ![image](/static/images/desktop.PNG)
