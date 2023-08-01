@@ -62,7 +62,8 @@ def update_comment(request, pk):
         if comment_form.is_valid():
             comment_form.save()
             messages.success(request, 'Comment updated successfully')
-            return redirect('frontpage')
+            # Redirect to the post detail view where the comment belongs
+            return redirect('post_detail', slug=comment.post.slug)
         else:
             messages.error(request, 'Error updating comment')
 
@@ -82,7 +83,7 @@ def delete_comment(request, pk):
     if request.method == 'POST':
         comment.delete()
         messages.success(request, 'Comment deleted successfully')
-        return redirect('frontpage')
+        return redirect('post_detail', slug=comment.post.slug)
 
     context = {
         'comment': comment,
