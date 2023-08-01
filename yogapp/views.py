@@ -79,9 +79,15 @@ def delete_comment(request, pk):
     Delete a specific comment and display a success message.
     """
     comment = get_object_or_404(Comment, id=pk)
-    comment.delete()
-    messages.success(request, 'Comment deleted successfully')
-    return redirect('frontpage')
+    if request.method == 'POST':
+        comment.delete()
+        messages.success(request, 'Comment deleted successfully')
+        return redirect('frontpage')
+
+    context = {
+        'comment': comment,
+    }
+    return render(request, 'blog/delete_comment.html', context)
 
 
 @login_required
