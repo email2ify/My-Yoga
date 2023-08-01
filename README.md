@@ -19,96 +19,158 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 <li>To access the webpage using handy divices like smart phones, ipad etc </li>
 
 <h2><Strong>Features and the render testing images:</strong></h2>
-<li>The webpage has a landing header and features providing information about the website and the importance of Yoga training and fitness, blog posts for users to read more and to balance a healthy life style.</li>
+<li>The webpage has a landing header and features providing information about the website and the importance of Yoga training and fitness, blog posts for users to read more and to balance a healthy life style.</li> <br>
 
 ![image](/static/images/landingpage2.PNG)
 
 
 <h2><Strong>About Page:</strong></h2>
-<li>The website about page image, for the user to know about the organization</li>
+<li>The website about page image, for the user to know about the organization</li><br>
 
 ![image](/static/images/about-page.PNG)
 
 
 <h2><Strong>Contact Page:</strong></h2>
-<li>The website contact page image, for the users to see the directline and email addresses of the organization</li>
+<li>The website contact page image, for the users to see the directline and email addresses of the organization</li><br>
 
 ![image](/static/images/contactpage.PNG)
 
 
+<h2><Strong>NavBar:</strong></h2>
+<li>This is the navigation page of the website  and markdown for any navigation of the page</li><br>
+
+![image](/static/images/Navbar.PNG)
+
+<li>Social media</li>
+
+![image](/static/images/social.PNG)
+
+<li>Reach Us</li>
+
+![image](/static/images/login.PNG)
+
+<h2><Strong>Responsiveness:</strong></h2>
+<li>The responsiveness from a mobile device</li><br>
+
+![image](/static/images/mobiledevice.PNG)
+
+
+<h2><Strong>DropDown Burger Menu for mobile device:</strong></h2>
+<li>User can navigate from any device, like a mobile device and the user will still have a good user experience with the burger menu option displayed on the device</li> <br>
+
+![image](/static/images/dropdown2.PNG)
+
+
+<h2><Strong>Responsiveness:</strong></h2>
+<li>The responsiveness on a DeskTop</li><br>
+
+![image](/static/images/desktop.PNG)
+
+
+
+<h2><Strong>Successfully Sign In :</strong></h2>
+
+<li>A pop-up message alerting users that they have successfully signin to the account </li><br>
+
+![image](/static/images/signInyoga.PNG)
+
+
+<h2><Strong>Successfully Sign Out :</strong></h2>
+
+<li>A pop-up message alerting users that, they have successfully signed out of the account </li><br>
+
+![image](/static/images/signoutyoga.PNG)
+
+
+
+
 <h2><Strong>Create Comment:</strong></h2>
-<li>Users are unable to add comment or give testimony and also their experience with the Yoga organization or the blog post, rather a pop up message will appear asking the user, 'You must be logged in to comment' </li>
+<li>Users are unable to add comment or give testimony and also their experience with the Yoga organization or the blog post, rather a pop up message will appear asking the user, 'You must be logged in to comment' </li><br>
+<br>
 
 ![image](/static/images/co1.PNG)
 
+<h2><Strong>Comment Created:</strong></h2>
+<li>Users are able to add comment or give testimony and also their experience with the Yoga organization or the blog post with a pop-up message 'comment created successfully'</li> <br>
+
+![image](/static/images/comment.PNG)
 
 
+<h2><Strong>Comment Updated:</strong></h2>
+<li>Users are able to update comment  with a pop-up message 'comment updated successfully'</li><br>
+
+![image](/static/images/updated.PNG)
+
+<h2><Strong>Comment Deleted:</strong></h2>
+<li>Users are able to delete comment  with a pop-up message 'comment deleted successfully'</li><br>
+
+![image](/static/images/deleted.PNG)
 
 <h2><Strong>Create:</strong></h2>
-<li>Users are able to create comment in the blog post or testimonies after they have register an account with the site</li>
+<li>Users are able to create comment in the blog post or testimonies after they have register an account with the site</li><br>
 
-![image](/static/images/create2.PNG)
+
+![image](/static/images/create.PNG)
 
 <h2><Strong>Read:</strong></h2>
-<li>Registered Users only can read, view testimonies of themself or others </li>
+<li>Registered Users only can read, view testimonies of themself or others </li><br>
 
 ![image](/static/images/testi-create.PNG)
 
 <h2><Strong>Update:</strong></h2>
-<li>User to be able to make changes to their testimony or comment</li>
+<li>User to be able to make changes to their testimony or comment</li><br>
 
-![image](/static/images/update23.PNG)
+![image](/static/images/updatey.PNG)
 
 
 <h2><Strong>Delete:</strong></h2>
-<li>User will be able to delete their testimony or comment but before the delete message is gone, a pop up message appears "Are you sure you want to delete?"</li>
+<li>User will be able to delete their testimony or comment but before the delete message is gone, a pop up message appears "Are you sure you want to delete?"</li><br>
 
 ![image](/static/images/delei.PNG)
 
 
 <h2><Strong>Notification:</strong></h2>
-<li>For users to be able to see if there are any testimonies or comments on the post.</li>
+<li>For users to be able to see if there are any testimonies or comments on the post.</li><br>
 
 ![image](/static/images/dele.PNG)
 
 <h2><Strong>Wait List :</strong></h2>
-<li>Individuals showing interest in our Yoga training will have to register an account and also register their email address in the data base inorder to know the counts of individuals that will be joining the next Yoga programme and the benefits of joining us.</li>
+<li>Individuals showing interest in our Yoga training will have to register an account and also register their email address in the data base inorder to know the counts of individuals that will be joining the next Yoga programme and the benefits of joining us.</li><br>
 
-![image](/static/images/waitlist.PNG)
+![image](/static/images/waitlist1.PNG)
 
 
 
 <h2><Strong>Sign Up :</strong></h2>
 
-<li>It is important for user to sign up an account inorder for them to comment or testify </li>
+<li>It is important for user to sign up an account inorder for them to comment or testify </li><br>
 
 ![image](/static/images/sign.PNG)
 
 <h2><Strong>Sign In :</strong></h2>
 
-<li>It is important for user to sign in into their account inorder to have access to the blog post and comments if need be </li>
+<li>It is important for user to sign in into their account inorder to have access to the blog post and comments if need be </li><br>
 
 ![image](/static/images/signin.PNG)
 
 
 <h2><Strong>Sign Out :</strong></h2>
 
-<li>User can sign out from his or her account </li>
+<li>User can sign out from his or her account </li><br>
 
 ![image](/static/images/signout.PNG)
 
 
-
 <h2><Strong>Diet stretching:</strong></h2>
 
-<li> Users to read about  site blog on Diet stretching and the health benefit </li>
+<li> Users to read about  site blog on Diet stretching and the health benefit </li><br>
 
 ![image](/static/images/diet.PNG)
 
 
 <h2><Strong>Shoulder & chest stretch:</strong></h2>
 
-<li> Users to read about the site blog on Shoulder & chest stretch and the health benefit </li>
+<li> Users to read about the site blog on Shoulder & chest stretch and the health benefit </li><br>
 
 
 ![image](/static/images/shoulder.PNG)
@@ -116,14 +178,14 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 <h2><Strong>Back health & balance:</strong></h2>
 
-<li> Users to read about the site blog on Back health & balance and the health benefit </li>
+<li> Users to read about the site blog on Back health & balance and the health benefit </li><br>
 
 ![image](/static/images/back.PNG)
 
 
 <h2><Strong>Footer:</strong></h2>
 
-<li>A footer has been added to the bottom of the site with post feactures and social media icons in aria-labels to ensure users with assistive screen reading technology for the social media links and to know the purpose of the links are for. In the  links, it contains a  Facebook, Twitter,instagram and youtube as the social icons only on the footer and the direct navigation links that opens are on the left side of the site page, at the top 'under social media' so that users can follow us on social media if they want to keep up to date with our organization and events. The links navigate users away from the site.</li>
+<li>A footer has been added to the bottom of the site with post feactures and social media icons in aria-labels to ensure users with assistive screen reading technology for the social media links and to know the purpose of the links are for. In the  links, it contains a  Facebook, Twitter,instagram and youtube as the social icons only on the footer and the direct navigation links that opens are on the left side of the site page, at the top 'under social media' so that users can follow us on social media if they want to keep up to date with our organization and events. The links navigate users away from the site.</li><br>
 
 ![image](/static/images/footer.PNG)
 
@@ -141,7 +203,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 The Kanban board was created using github projects and the below image is where you can view the information on the project cards. All stories except the documentation tasks have a set of acceptance criteria in order to define the functionality that marks that story as completed.</li>
 
-  <li>    
+  <li> <br>   
   
   -[Agile Board](https://github.com/users/email2ify/projects/11) 
   
@@ -186,20 +248,20 @@ The Kanban board was created using github projects and the below image is where 
 <li>I also tested the 'waitlist field of the site, users showing interest in our Yoga training by adding their email addresses into the 'waitlist field, to join the waiting list of the Yoga training, and having done their registration of account and to register their email addresses in the wait list field. I tested the peice of function and it was showing the registered email addresses by users on the data base as expected, which was very nice to see</li>
 
 <h2><Strong>Validator testing:</strong></h2>
-<li>Lighthouse testing</li>
+<li>Lighthouse testing</li><br>
 
 ![image](/static/images/lightHouse%20new.PNG)
 
 <li>validator</li>
 
-<li>CSS validatorr</li>
+<li>CSS validatorr</li><br>
 
 -[Jigsaw](https://jigsaw.w3.org/css-validator/) 
 
 ![image](/static/images/Yoga-css.PNG)
 
-<h2><Strong>My Challange:</strong></h2>
-<li>The waiting list field section of the site was a challange. To see a registered user email address on the database,was challanging at first but it was later solved and I was able to see users email addresses on the database, which makes me very happy</li>
+<h2><Strong>My Challange:</strong></h2><br>
+<li>The waiting list field section of the site was a challange. To see a registered user email address on the database,was challanging at first but it was later solved and I was able to see users email addresses on the database, which makes me very happy</li><br>
 
 ![image](/static/images/Yogaemail.PNG)
 
@@ -210,7 +272,7 @@ The Kanban board was created using github projects and the below image is where 
 <h2><Strong>Project Deployment:</strong></h2>
 <li>The Django project settings Debug is set to be False.</li>
 
-<h2><Strong>Heroku Deployment:</strong></h2>
+<h2><Strong>Heroku Deployment:</strong></h2><br>
 
 -[Heroku](https://www.heroku.com/github-students/signup)
 

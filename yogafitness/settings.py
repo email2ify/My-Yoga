@@ -28,11 +28,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['yogapp.herokuapp.com', "localhost"]
+ALLOWED_HOSTS = ['8000-email2ify-myyoga-04fk4dyynmy.ws-eu102.gitpod.io','yogapp.herokuapp.com', "localhost"]
 
 # Application definition
 
