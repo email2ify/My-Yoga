@@ -214,7 +214,7 @@ The Kanban board was created using github projects and the below image is where 
 
 <h2><Strong>Features unsolved:</strong></h2>
 
-<li>The login functionality in the site does not provide the ability for user to delete registered account, as users can only create account and also displaying a successful logout from the account was unsolved</li>
+<li>The login functionality in the site does not provide the ability for user to delete registered account, as users can only create account</li>
 
 <h2><Strong>Database:</strong></h2>
 
