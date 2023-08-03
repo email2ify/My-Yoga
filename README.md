@@ -36,7 +36,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 ![image](/static/images/contactpage.PNG)
 
 
-<h2><Strong>NavBar:</strong></h2>
+<h2><Strong>NavBar</strong></h2>
 <li>This is the navigation page of the website  and a markdown navigation link</li><br>
 
 ![image](/static/images/Navbar.PNG)
@@ -49,7 +49,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 ![image](/static/images/login.PNG)
 
-<h2><Strong>Responsiveness:</strong></h2>
+<h2><Strong>Responsiveness</strong></h2>
 <li>The responsiveness from a mobile device</li><br>
 
 ![image](/static/images/mobiledevice.PNG)
@@ -67,14 +67,14 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 
 
-<h2><Strong>Successfully Sign In :</strong></h2>
+<h2><Strong>Successfully Sign In</strong></h2>
 
 <li>A pop-up message alerting users that they have successfully signin to the account </li><br>
 
 ![image](/static/images/signInyoga.PNG)
 
 
-<h2><Strong>Successfully Sign Out :</strong></h2>
+<h2><Strong>Successfully Sign Out</strong></h2>
 
 <li>A pop-up message alerting users that, they have successfully signed out of the account </li><br>
 
@@ -83,7 +83,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 
 
-<h2><Strong>Create Comment:</strong></h2>
+<h2><Strong>Create Comment</strong></h2>
 <li>Users are unable to add comment or give testimony and also their experience with the Yoga organization or the blog post, rather a pop up message will appear asking the user, 'You must be logged in to comment' </li><br>
 <br>
 
@@ -240,7 +240,7 @@ The manual testing of My-Yoga website pages are rendering as expected. Each page
 
 <li>From the view page, a User can navigate to the dropdown navbar menu list Reach us, Social media and Log In. These dropdown are rendering as expected and I was able to navigate to the preferred page on the menu</li><br>
 
-***NavBar Features***
+***Features***
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
@@ -249,6 +249,10 @@ The manual testing of My-Yoga website pages are rendering as expected. Each page
 | Social Media | Navigate to the Navbar Menu. Click to NavBar to show the different pages dropdown link. Click on Social media dropdown list on the homepage.  | Users to be able to navigate to the external link of the Social medial page for| Works as expected |
 | Log In | Navigate to the displayed Log In button on the Navbar Menu. Click on the display NavBar to show the different pages dropdown link. Click on Log In for the dropdown list on the navbar homepage.  | Users to be able to navigate to the external link of the Social medial page for| Works as expected |
 | Logged In | Navigate to the Navbar Menu. Click to on Log In with register user.  | Register and login buttons are not on the nav drop down and the logout button is visible on the nav bar | Works as expected |
+| WaitList  | Scroll down to the join our waitlist on the home page. Enter email address to join list of applications in the Database.  | Users to be able to enter their email addresses | Works as expected |
+| Create Comment | Scroll down to the Read More on the home page.Click on Read More and the button will navigate to the post page where users can create comment in a post  | Users to be able to create comment or testimony, update or delete own comments to a post| Works as expected |
+| Unregistered User| Unregister users can not add comment, rather the user will be ask to register to add comment  | Users to are unable to create comment or testimony, update or delete comments to a post| Works as expected |
+
 
 <h4>NavBar Menu</h4>
 
@@ -278,12 +282,7 @@ The manual testing of My-Yoga website pages are rendering as expected. Each page
 
 ***WaitList Features***
 
-<li>In the body of the site, there is a blank space called Join our waitList, where users can enter their email addresses to join other applicant and the records will be seen in My-Yoga database</li> <br>
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-| WaitList  | Scroll down to the join our waitlist on the home page. Enter email address to join list of applications in the Database.  | Users to be able to enter their email addresses | Works as expected |
-
+<li>In the body of the site, there is a blank space called Join our waitList, where users can enter their email addresses to join other applicant and the records will be seen in My-Yoga database</li>
 <h4>WaitList</h4>
 
 ![image](/static/images/waitlist1.PNG)
@@ -292,31 +291,28 @@ The manual testing of My-Yoga website pages are rendering as expected. Each page
 
 ***Create***
 
-<li>As a logged in user, I can  read comments of posts, add comments to posts, update and delete comments</li>
+<li>As a logged in user, I can  read comments of posts, add comments to posts, update and delete own comments</li>
 
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-| Create Comment | Scroll down to the Read More on the home page.Click on Read More and the button will navigate to the post page where users can create comment in a post  | Users to be able to create comment or testimony, update or delete comments to a post| Works as expected |
-| Unregistered User| Unregister users can not add comment, rather the user will be ask to register to add comment  | Users to are unable to create comment or testimony, update or delete comments to a post| Works as expected |
-
-<h4>Create</h4>
+<h4>Create Comment</h4>
 
 ![image](/static/images/testi-create.PNG)
 
 <h4>Updated</h4>
+<li>Registered Users are able to update own comments to a post</li>
 
 ![image](/static/images/updatey.PNG)
 
 <h4>Delete</h4>
+<li>Registered Users are able to delete own comments to a post</li>
 
 ![image](/static/images/delei.PNG)
 
 <h4>Unregistered User</h4>
+<li>Unregister users can not add comment, rather the user will be ask to register to add comment</li>
 
 ![image](/static/images/co1.PNG)
 
-
+<h4>Admin</h4>
 <li>I also tested the admin panel for registered users and also to delete posts and these functions are working as expected</li> <br>
 
 
