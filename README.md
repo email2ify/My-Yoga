@@ -328,7 +328,7 @@ The manual testing of My-Yoga website pages are rendering as expected. Each page
 
 <li>Lighthouse testing</li><br>
 
-![image](/static/images/lightHouse%20new.PNG)
+![image](/static/images/lighthos.PNG)
 
 
 <li>CSS validatorr</li><br>
