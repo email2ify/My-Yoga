@@ -235,7 +235,7 @@ The Kanban board was created using github projects and the below image is where 
 
 
 <h2><Strong>Testing:</strong></h2>
-<li>The manual testing of the site was rendering as expected. Each section of the site was tested and no errors were found.</li>
+The manual testing of the site was rendering as expected. Each section of the site was tested and no errors were found.
 <li>From the view page, the navbar was working as expected and I was able to navigate to the preferred section as expected on the about page, contact page,home page, the external links for the social media and the internal navigation for the login ,register and logout navbar.</li>
 <li>In the body of the site, there is a created post and date and when a user want to read about the post, I tested the read more to confirm the navigation of the read more of the post which the navigation of the read more worked as expected and the full details of the post was open</li>
 
@@ -245,6 +245,16 @@ The Kanban board was created using github projects and the below image is where 
 <li>I tested the admin panel for registered users and also to delete posts and these functions are working as expected</li>
 
 <li>I also tested the 'waitlist field of the site, users showing interest in our Yoga training by adding their email addresses into the 'waitlist field, to join the waiting list of the Yoga training, and having done their registration of account and to register their email addresses in the wait list field. I tested the peice of function and it was showing the registered email addresses by users on the data base as expected, which was very nice to see</li>
+
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Species  | Navigate to the species page. show Animals that can be found from in a country. Click on a country to view About the specie.  | Users to be able to get the species details in a particular country | Works as expected |
+|  Search Species | Navigate to the Species page from the home page without a log in. Search for favorite animal alphabetically displayed.  | Users to be able to view search wildelife content from the database  | Works as expected 
+
+
+
+
 
 <h2><Strong>Validator testing:</strong></h2>
 <li>Lighthouse testing</li><br>

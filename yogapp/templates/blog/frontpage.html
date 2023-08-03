@@ -3,7 +3,7 @@
 
 {% block content %}
 
-<!-- head statement -->
+
 <div class="container">
     <br>
     <br>
@@ -17,27 +17,26 @@
         src="https://img.freepik.com/vrije-vector/yoga-met-gezichtsmaskers-concept-illustratie_114360-5745.jpg?w=826&t=st=1681971492~exp=1681972092~hmac=cadc18582cce7162842f7c4eb3031683602eaad4f33a14654b494ff2508e65c7"
         alt="re.png">
 </div>
-</div>
-<p>
-<h3>The training we offers helps in reducing stress and anxiety by relaxing the mind and body.
-    It includes deep breathing techniques, meditation, and mindfulness practices that help in promoting
-    better mental health and reducing stress levels, it also enhances mental clarity and concentration.
-    <br><br>
-    Our regular practice of yoga has been shown to improve memory, attention, and decision-making abilities. <br>
-    It has boosts our students immunity with the help of our features and regular practices<br>
-    Our training has imporoved the lifes and wellbeing of our old and new student, by
-    reducing the symptoms of depression, anxiety, and emotional stress etc. <br>
-    </p>
-    <br>
-    <p class="pe">Feel free to read more about our post and benefits and register with us!</p>
-    </div>
-</h3>
+
+
+    <h3>The training we offers helps in reducing stress and anxiety by relaxing the mind and body.
+        It includes deep breathing techniques, meditation, and mindfulness practices that help in promoting
+        better mental health and reducing stress levels, it also enhances mental clarity and concentration.
+        <br><br>
+        Our regular practice of yoga has been shown to improve memory, attention, and decision-making abilities. <br>
+        It has boosts our students immunity with the help of our features and regular practices<br>
+        Our training has imporoved the lifes and wellbeing of our old and new student, by
+        reducing the symptoms of depression, anxiety, and emotional stress etc. <br>
+    </h3>
+
+<br>
+<p class="pe"><strong> Feel free to read more about our post and benefits and register with us!</strong></p>
 <!-- waiting list form -->
 <form method="post" action="{% url 'yoga_email' %}">
     {% csrf_token %}
     {{ form.as_p }}
 
-    <button to="" class="btn btn-success py-2 px-4 rounded-5" type="submit">Join our waitlist</button>
+    <button class="btn btn-success py-2 px-4 rounded-5" type="submit">Join our waitlist</button>
 </form> <br>
 {% for post in posts %}
 <div class="post block my-5">
