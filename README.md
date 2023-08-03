@@ -21,33 +21,33 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 <h2><Strong>Features and the render testing images:</strong></h2>
 <li>The webpage has a landing header and features providing information about the website and the importance of Yoga training and fitness, blog posts for users to read more and to balance a healthy life style.</li> <br>
 
-![image](/static/images/landingpage2.PNG)
+![image](/static/images/homepage.PNG)
 
 
 <h2><Strong>The About Page:</strong></h2>
 <li>The about page of the website is to create awareness of the Healthy lifestyle and yoga image, for user to know what the organization is all about. </li><br>
 
-![image](/static/images/about-page.PNG)
+![image](/static/images/abouthome.PNG)
 
 
 <h2><Strong>Contact Page:</strong></h2>
 <li>The website contact page image, for the users to see the directline and email addresses of the organization</li><br>
 
-![image](/static/images/contactpage.PNG)
+![image](/static/images/contacthome.PNG)
 
 
 <h2><Strong>NavBar</strong></h2>
 <li>This is the navigation page of the website  and a markdown navigation link</li><br>
 
-![image](/static/images/Navbar.PNG)
+![image](/static/images/navbar.PNG)
 
 <li>Social media</li>
 
-![image](/static/images/social.PNG)
+![image](/static/images/socia.PNG)
 
 <li>Reach Us</li>
 
-![image](/static/images/login.PNG)
+![image](/static/images/about1.PNG)
 
 <h2><Strong>Responsiveness</strong></h2>
 <li>The responsiveness from a mobile device</li><br>
@@ -63,7 +63,7 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 <li>The responsiveness on a DeskTop</li><br>
 
-![image](/static/images/desktop.PNG)
+![image](/static/images/homepage.PNG)
 
 
 
@@ -71,14 +71,14 @@ Yoga website is created with a Django functionality, bootstrap and HTML. The hea
 
 <li>A pop-up message alerting users that they have successfully signin to the account </li><br>
 
-![image](/static/images/signInyoga.PNG)
+![image](/static/images/signinn.PNG)
 
 
 <h2><Strong>Successfully Sign Out</strong></h2>
 
 <li>A pop-up message alerting users that, they have successfully signed out of the account </li><br>
 
-![image](/static/images/signoutyoga.PNG)
+![image](/static/images/logout1.PNG)
 
 
 
