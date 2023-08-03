@@ -234,9 +234,46 @@ The Kanban board was created using github projects and the below image is where 
 <li>The Debug is set to false before production.</li>
 
 
-<h2><Strong>Testing:</strong></h2>
-The manual testing of the site was rendering as expected. Each section of the site was tested and no errors were found.
-<li>From the view page, the navbar was working as expected and I was able to navigate to the preferred section as expected on the about page, contact page,home page, the external links for the social media and the internal navigation for the login ,register and logout navbar.</li>
+<h2>Manual Testing</h2>
+The manual testing of My-Yoga website pages are rendering as expected. Each page of the website was tested and no errors were found.
+
+<li>From the view page, a User can navigate to the dropdown navbar menu list Reach us, Social media and Log In. These dropdown are rendering as expected and I was able to navigate to the preferred page on the menu</li><br>
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+| NavBar Menu  | Navigate to the Navbar Menu. show the different pages dropdown link. Click on a preferred dropdown link on the homepage.  | Users to be able to navigate to the preferred page for more information | Works as expected |
+| Reach Us  | Navigate to the Navbar Menu. Click to NavBar to show the different pages dropdown link. Click on a Reach us dropdown list on the homepage.  | Users to be able to navigate to the Contact page for more information | Works as expected |
+| Social Media | Navigate to the Navbar Menu. Click to NavBar to show the different pages dropdown link. Click on Social media dropdown list on the homepage.  | Users to be able to navigate to the external link of the Social medial page for| Works as expected |
+| Log In | Navigate to the displayed Log In button on the Navbar Menu. Click on the display NavBar to show the different pages dropdown link. Click on Log In for the dropdown list on the navbar homepage.  | Users to be able to navigate to the external link of the Social medial page for| Works as expected |
+| Logged In | Navigate to the Navbar Menu. Click to on Log In with register user.  | Register and login buttons are not on the nav drop down and the logout button is visible on the nav bar | Works as expected |
+
+<h4>NavBar Menu</h4>
+
+![image](/static/images/navbar.PNG)
+
+<h4>Reach Us DropDown</h4>
+
+![image](/static/images/about1.PNG)
+
+<h4>Social DropDown</h4>
+
+![image](/static/images/socia.PNG)
+
+
+<h4>Log In DropDown</h4>
+
+![image](/static/images/log.PNG)
+
+
+<h4>Logged In User</h4>
+
+![image](/static/images/lo.PNG)
+
+
+<br>
+
+
+
 <li>In the body of the site, there is a created post and date and when a user want to read about the post, I tested the read more to confirm the navigation of the read more of the post which the navigation of the read more worked as expected and the full details of the post was open</li>
 
 <li>The testing of the footer features in the read more section, I discovered that not all three of them were working as expected but I had to rethink to know why it was so, and I discovered that one of the page was linking directly to the page with full UrL instead of the main body of the post, which was corrected.</li>
@@ -245,13 +282,6 @@ The manual testing of the site was rendering as expected. Each section of the si
 <li>I tested the admin panel for registered users and also to delete posts and these functions are working as expected</li>
 
 <li>I also tested the 'waitlist field of the site, users showing interest in our Yoga training by adding their email addresses into the 'waitlist field, to join the waiting list of the Yoga training, and having done their registration of account and to register their email addresses in the wait list field. I tested the peice of function and it was showing the registered email addresses by users on the data base as expected, which was very nice to see</li>
-
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|  Species  | Navigate to the species page. show Animals that can be found from in a country. Click on a country to view About the specie.  | Users to be able to get the species details in a particular country | Works as expected |
-|  Search Species | Navigate to the Species page from the home page without a log in. Search for favorite animal alphabetically displayed.  | Users to be able to view search wildelife content from the database  | Works as expected 
-
 
 
 
