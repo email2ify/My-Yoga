@@ -237,7 +237,10 @@ The Kanban board was created using github projects and the below image is where 
 <h2>Manual Testing</h2>
 The manual testing of My-Yoga website pages are rendering as expected. Each page of the website was tested and no errors were found.
 
+
 <li>From the view page, a User can navigate to the dropdown navbar menu list Reach us, Social media and Log In. These dropdown are rendering as expected and I was able to navigate to the preferred page on the menu</li><br>
+
+***NavBar Features***
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
@@ -273,25 +276,64 @@ The manual testing of My-Yoga website pages are rendering as expected. Each page
 <br>
 
 
+***WaitList Features***
 
-<li>In the body of the site, there is a created post and date and when a user want to read about the post, I tested the read more to confirm the navigation of the read more of the post which the navigation of the read more worked as expected and the full details of the post was open</li>
+<li>In the body of the site, there is a blank space called Join our waitList, where users can enter their email addresses to join other applicant and the records will be seen in My-Yoga database</li> <br>
 
-<li>The testing of the footer features in the read more section, I discovered that not all three of them were working as expected but I had to rethink to know why it was so, and I discovered that one of the page was linking directly to the page with full UrL instead of the main body of the post, which was corrected.</li>
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+| WaitList  | Scroll down to the join our waitlist on the home page. Enter email address to join list of applications in the Database.  | Users to be able to enter their email addresses | Works as expected |
 
-<li>I also tested the crud functionality. Unregister users can not add comment, rather the user will be ask to register to add comment, which was expected and registered users can read,create, update and delete their comment or testimonies and these functions are working as expected, having tested the functionalities.</li>
-<li>I tested the admin panel for registered users and also to delete posts and these functions are working as expected</li>
+<h4>WaitList</h4>
 
-<li>I also tested the 'waitlist field of the site, users showing interest in our Yoga training by adding their email addresses into the 'waitlist field, to join the waiting list of the Yoga training, and having done their registration of account and to register their email addresses in the wait list field. I tested the peice of function and it was showing the registered email addresses by users on the data base as expected, which was very nice to see</li>
+![image](/static/images/waitlist1.PNG)
 
 
+
+***Create***
+
+<li>As a logged in user, I can  read comments of posts, add comments to posts, update and delete comments</li>
+
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+| Create Comment | Scroll down to the Read More on the home page.Click on Read More and the button will navigate to the post page where users can create comment in a post  | Users to be able to create comment or testimony, update or delete comments to a post| Works as expected |
+| Unregistered User| Unregister users can not add comment, rather the user will be ask to register to add comment  | Users to are unable to create comment or testimony, update or delete comments to a post| Works as expected |
+
+<h4>Create</h4>
+
+![image](/static/images/testi-create.PNG)
+
+<h4>Updated</h4>
+
+![image](/static/images/updatey.PNG)
+
+<h4>Delete</h4>
+
+![image](/static/images/delei.PNG)
+
+<h4>Unregistered User</h4>
+
+![image](/static/images/co1.PNG)
+
+
+<li>I also tested the admin panel for registered users and also to delete posts and these functions are working as expected</li> <br>
 
 
 <h2><Strong>Validator testing:</strong></h2>
+
+-[Validator](https://validator.w3.org)
+
+![image](/static/images/v.PNG)
+
+![image](/static/images/fronpage.PNG)
+
+
+
 <li>Lighthouse testing</li><br>
 
 ![image](/static/images/lightHouse%20new.PNG)
 
-<li>validator</li>
 
 <li>CSS validatorr</li><br>
 
@@ -306,7 +348,8 @@ The manual testing of My-Yoga website pages are rendering as expected. Each page
 
 <h2><Strong>Bugs:</strong></h2>
 
-<li>None</li>
+<li>The testing of the footer features in the read more section, I discovered that not all three of them were working as expected but I had to rethink to know why it was so, and I discovered that one of the page was linking directly to the page with full UrL instead of the main body of the post, which was corrected.</li> <br>
+
 
 <h2><Strong>Project Deployment:</strong></h2>
 <li>The Django project settings Debug is set to be False.</li>
