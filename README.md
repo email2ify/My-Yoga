@@ -1,5 +1,5 @@
 <h1>Yoga</h1>
-Yoga website is created with a Django functionality, bootstrap and HTML. The healthy life style yoga blog website can be assessed in all devices, navigated to the blog that interest the user. As it is a crud functionality, the app can post testimonials,comments, read, update or delete comment. The website was builth using Agile methodology for structure, and for UI Design Bootstrap technology.
+Yoga website is created with a Django functionality, bootstrap and HTML. The healthy life style yoga blog website can be accessed in all devices, navigated to the blog that interest the user. As it is a crud functionality, the app can post testimonials,comments, read, update or delete comment. The website was builth using Agile methodology for structure, and for UI Design Bootstrap technology.
 
 <h2><Strong>Image:</strong></h2>
 
